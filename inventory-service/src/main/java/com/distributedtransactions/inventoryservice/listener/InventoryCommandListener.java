@@ -1,8 +1,8 @@
 package com.distributedtransactions.inventoryservice.listener;
 
-import com.example.common.dto.OrderCommand;
-import com.example.common.dto.OrderEvent;
-import com.example.inventoryservice.service.InventoryService;
+import com.distributedtransactions.common.dto.OrderCommand;
+import com.distributedtransactions.common.dto.OrderEvent;
+import com.distributedtransactions.inventoryservice.service.InventoryService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.annotation.KafkaListener;

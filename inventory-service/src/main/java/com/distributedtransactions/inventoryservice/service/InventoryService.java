@@ -1,7 +1,7 @@
 package com.distributedtransactions.inventoryservice.service;
 
-import com.example.inventoryservice.domain.InventoryEntity;
-import com.example.inventoryservice.repository.InventoryRepository;
+import com.distributedtransactions.inventoryservice.domain.InventoryEntity;
+import com.distributedtransactions.inventoryservice.repository.InventoryRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
