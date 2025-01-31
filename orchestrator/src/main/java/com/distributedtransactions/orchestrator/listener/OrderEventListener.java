@@ -1,5 +1,7 @@
-import com.example.common.dto.OrderEvent;
-import com.example.orchestrator.service.OrchestratorService;
+package com.distributedtransactions.orchestrator.listener;
+
+import com.distributedtransactions.common.dto.OrderEvent;
+import com.distributedtransactions.orchestrator.service.OrchestratorService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.annotation.KafkaListener;
